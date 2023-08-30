@@ -1,0 +1,17 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(411,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (ConsoleApplication1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  file.cpp
+  LogPass.cpp
+  main.cpp
+  ServerNet.cpp
+C:\Cpp\ClientServerSQL\forSend\NewFile\NewFile\ConsoleApplication1\ServerNet.cpp(98): warning C4312: приведение типов: преобразование из "int" в "LPVOID" большего размера
+  SQL.cpp
+C:\Cpp\ClientServerSQL\forSend\NewFile\NewFile\ConsoleApplication1\SQL.cpp(40): warning C4101: row: неиспользованная локальная переменная
+C:\Cpp\ClientServerSQL\forSend\NewFile\NewFile\ConsoleApplication1\SQL.cpp(39): warning C4101: res: неиспользованная локальная переменная
+C:\Cpp\ClientServerSQL\forSend\NewFile\NewFile\ConsoleApplication1\SQL.cpp(213): warning C4244: инициализация: преобразование "uint64_t" в "int", возможна потеря данных
+C:\Cpp\ClientServerSQL\forSend\NewFile\NewFile\ConsoleApplication1\SQL.cpp(92): warning C4101: cLgn: неиспользованная локальная переменная
+C:\Cpp\ClientServerSQL\forSend\NewFile\NewFile\ConsoleApplication1\SQL.cpp(93): warning C4101: cPswrd: неиспользованная локальная переменная
+C:\Cpp\ClientServerSQL\forSend\NewFile\NewFile\ConsoleApplication1\SQL.cpp(204): warning C4101: field: неиспользованная локальная переменная
+  Создание кода...
+C:\Cpp\ClientServerSQL\forSend\NewFile\NewFile\ConsoleApplication1\SQL.cpp(266): warning C4715: insert_Log_Pass_SQL: значение возвращается не при всех путях выполнения
+  LINK : не найден или не выполнена сборка C:\Cpp\ClientServerSQL\forSend\NewFile\NewFile\x64\Debug\SQL_Server_Net_Mess.exe при последней инкрементной компоновке; выполняется полная компоновка
+  ConsoleApplication1.vcxproj -> C:\Cpp\ClientServerSQL\forSend\NewFile\NewFile\x64\Debug\SQL_Server_Net_Mess.exe
